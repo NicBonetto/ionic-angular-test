@@ -6,7 +6,7 @@ This application is using Angular 5, Ionic 3, Firebase, and Node. With this app,
 
 This application uses Git, Node, Ionic, and Cordova so ensure they are installed. Then follow the command prompts:
 ```
-git clone 
+git clone https://github.com/NicBonetto/ionic-angular-test.git
 cd ionic-angular-test
 npm install
 ```
