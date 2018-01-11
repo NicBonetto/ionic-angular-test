@@ -11,27 +11,15 @@ cd ionic-angular-test
 npm install
 ```
 
-After all the dependencies are installed, you may have to build an iOS or Android environment:
+After all the dependencies are installed, you may have to build an iOS environment:
 
 ```
 ionic cordova build ios
-```
-
-or 
-
-```
-ionic cordova build android
 ```
 
 Once the environment has been built, run:
 
 ```
 ionic cordova emulate ios
-```
-
-or 
-
-```
-ionic cordova emulate android
 ```
 
