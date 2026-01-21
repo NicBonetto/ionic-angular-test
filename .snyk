@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > tar-pack > debug:
+        patched: '2026-01-21T12:25:03.912Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          firebase > @firebase/firestore > grpc > node-pre-gyp > tar-pack >
+          debug
+  'npm:tough-cookie:20170905':
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > tough-cookie:
+        patched: '2026-01-21T12:25:03.912Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          firebase > @firebase/firestore > grpc > node-pre-gyp > request >
+          tough-cookie
